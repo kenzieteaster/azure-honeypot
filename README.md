@@ -25,3 +25,7 @@ After recovering the VM, I hardened it:
 
 ## Why This Project Matters
 This wasn’t just a lab, it turned into a real compromise and recovery scenario. It gave me experience with Azure administration, incident response, log analysis, and security hardening. It also helped me understand how quickly exposed services get targeted in the real world.
+
+## Full Incident Report
+You can read the full write‑up here:  
+**[Incident Report](Incident%20Report.md)**
