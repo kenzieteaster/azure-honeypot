@@ -1,6 +1,6 @@
 # Azure Security Lab – From Exposure to Hardening
 
-I built this lab to get hands-on experience with Azure, Windows security, and basic SOC workflows. I followed a general structure from an online guide, but I customized the setup and worked through the incident myself. The goal was simple: deploy a Windows VM, expose it, see what happens, and then secure it properly.
+I built this lab to get hands on experience with Azure, Windows security, and basic SOC workflows. I followed a general structure from an online guide, but I customized the setup and worked through the incident myself. The goal was simple: deploy a Windows VM, expose it, see what happens, and then secure it properly.
 
 ## What I Set Up
 I deployed a Windows Server VM in Azure with a public IP, created a VNet and subnet, and attached an NSG. I also connected the VM to a Log Analytics Workspace so I could collect Windows event logs. Defender for Cloud was enabled to surface recommendations and security alerts.
@@ -24,4 +24,4 @@ After recovering the VM, I hardened it:
 - Connected everything to Log Analytics for monitoring
 
 ## Why This Project Matters
-This wasn’t just a lab — it turned into a real compromise and recovery scenario. It gave me experience with Azure administration, incident response, log analysis, and security hardening. It also helped me understand how quickly exposed services get targeted in the real world.
+This wasn’t just a lab, it turned into a real compromise and recovery scenario. It gave me experience with Azure administration, incident response, log analysis, and security hardening. It also helped me understand how quickly exposed services get targeted in the real world.
